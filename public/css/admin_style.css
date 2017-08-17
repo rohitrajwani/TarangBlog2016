@@ -1,0 +1,207 @@
+::-webkit-scrollbar {
+    width: 5px;
+}
+ 
+::-webkit-scrollbar-track {
+	background-color: white;
+    border-radius: 1px;
+}
+ 
+::-webkit-scrollbar-thumb {
+	background-color: #333333;
+	opacity: 0.2;
+    border-radius: 1px;
+}
+
+@font-face {
+    font-family:"Good Times";
+    src:url("../font/good times/goodtime.eot") format("eot"),url("../font/good times/goodtime.woff") format("woff"),url("../font/good times/goodtime.ttf") format("truetype"),url("../font/good times/goodtime.svg#GoodTimes") format("svg");
+    font-weight:thin;
+    font-style:normal;
+}
+
+nav{
+    background-color: rgba(0,0,0,0.8);
+}
+
+nav ul li a{
+    font-size: 16px;
+    width: 100%;
+    text-align: center;
+}
+
+nav .brand-logo{
+    font-family: "Good Times", sans-serif;    
+}
+
+.container{
+    margin: 20px auto;
+    position: relative;
+    padding: 30px 20px;
+    width: 85%;
+    border: 1px solid lightgrey;
+}
+
+.container h4{
+    width: 40%;
+    margin: 20px auto;
+    text-align: center;
+    color: rgba(0,0,0,0.7);
+    font-family: "Lato",sans-serif;
+    letter-spacing: 1.5px;
+    word-spacing: 5px;
+    line-height: 1.75;
+    border : 2px dashed rgba(0,0,0,0.5);
+    margin-top: 0px;
+}
+
+.input-field{
+    position: relative;
+    width: 60%;
+    margin: 50px auto;
+    margin-bottom: 20px;
+}
+
+.note-editor{
+    display: block;
+    position:relative;
+    top: 0px;
+    border: 2px solid rgba(0,0,0,0.2);
+    width: 95%;
+    margin: auto;
+    height: 600px;
+}
+
+.note-editor .note-toolbar{
+    position: relative;
+    height:60px;
+    z-index: 1 !important;
+    text-align: center;
+    background-color: whitesmoke;
+}
+
+.note-toolbar > .btn-group{
+    padding: 8px;
+    top: 3px;
+    position: relative;
+    margin-right: 0;
+    padding-right: 0;
+}
+
+.btn-group .btn-group{
+    margin-right: 0;
+}
+
+.note-toolbar .btn{
+    background-color: whitesmoke;
+    color: rgba(0,0,0,0.75);
+}
+
+.note-toolbar .btn:hover{
+    color: white;
+}
+
+.note-editor .note-editable{
+    position: relative;
+    top: 0px;
+    height: 515px;
+    background-color: white;
+    z-index: 0;
+}
+
+.note-editor .modal{
+    background-color: #fafafa;; 
+}
+
+.note-editor .btn{
+    cursor: pointer;
+}
+
+.note-dialog .modal-content .file-field{
+    margin-top: 30px;
+    margin-bottom: -50px;
+}
+
+.note-dialog .modal-content .file-field .btn{
+    width: 120px;
+}
+
+.note-dialog .modal-content .file-field .file-path-wrapper .file-path{
+    color: rgba(0,0,0,0.85);
+    width: 300px;
+}
+
+.modal-footer{
+    display: none;
+}
+
+.submit_post{
+    text-align: center;
+    padding: 20px 40px;
+}
+
+.submit_post .btn{
+    width: 250px;
+    height: 40px;
+}
+
+.post h3{
+    font-size: 32px;
+}
+
+.post-container .post{
+    padding: 30px 0px;
+    border-bottom:1px solid rgba(0,0,0,0.3);
+}
+
+.post a{
+    color: rgba(0,0,0,0.75);
+}
+
+.post i.fa{
+    line-height: 2;
+    font-size: 14px;
+    letter-spacing: 1.25px;
+    color: rgba(0,0,0,0.7);
+}
+
+.post i.fa span{
+    font-family: "Lato" , sans-serif;
+}
+
+.option{
+    margin-top: 50px;    
+}
+
+.option a{
+    color: rgba(0,0,0,0.6);
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius: 2px;
+    transition: 300ms;
+}
+
+.option a:hover{
+    border-color: teal; 
+    color: teal;
+}
+
+.option a i.fa{
+    padding: 15px
+}
+
+.option h5{
+    border-top: 1px solid rgba(0,0,0,0.2);;
+    line-height: 2;
+}
+
+@media only screen and (max-width: 400px) {
+    
+    .container h4,.input-field{
+        width: 90%;
+    }
+    
+    .submit_post{
+        text-align: center;
+    }
+    
+}

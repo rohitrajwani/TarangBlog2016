@@ -1,0 +1,295 @@
+::-webkit-scrollbar {
+    width: 5px;
+}
+ 
+::-webkit-scrollbar-track {
+	background-color: white;
+/*    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); */
+    border-radius: 1px;
+}
+ 
+::-webkit-scrollbar-thumb {
+	background-color: #333333;
+	opacity: 0.2;
+    border-radius: 1px;
+/*    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); */
+}
+
+@font-face {
+    font-family:"Good Times";
+    src:url("../font/good times/goodtime.eot") format("eot"),url("../font/good times/goodtime.woff") format("woff"),url("../font/good times/goodtime.ttf") format("truetype"),url("../font/good times/goodtime.svg#GoodTimes") format("svg");
+    font-weight:thin;
+    font-style:normal;
+}
+
+
+body{
+    padding: 0;
+    background-image: url(../img/bg.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.row .col{
+    padding: 0;
+}
+
+.post{
+    position: fixed;
+    float: right;
+    min-height: 100%;
+    background-image: url(../img/1366x768_Wallpaper-texture-background-wallpaper-black-wallpapers-textures.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.post header{
+    padding-top: 50px;
+    min-height: 100%;
+    background-color: rgba(0,0,0,0.7);
+    background-attachment: fixed;
+}
+
+nav{
+    text-align: center;
+    background-color: transparent;
+    box-shadow: none;
+}
+
+nav li{
+    margin-top:0px;
+    height: 60px;
+}
+
+nav ul li a:hover{
+    background-color: transparent;
+}
+
+nav li a{
+    margin: auto;
+    padding: 25px;
+    line-height: 1;
+    font-size: 1.25em;
+    height: 100%;
+    color: #fafafa;
+    width: 100%;
+}
+
+nav li a i.fa{
+    margin-top: -2px;
+    font-size: 1.25em;
+    width: 50%;
+    text-align: left;
+}
+
+nav li a i span{
+    font-family: "Roboto",sans-serif;
+    font-size: 0.75em;
+    letter-spacing: 2px;
+}
+
+nav a .logo{
+    margin-top: 10px;
+    margin-bottom: -20px;
+    padding: 17px;
+    height: 150px;
+    width: 150px;
+    background-color: rgba(255,255,255,0);
+}
+
+nav .logo-container a:hover{
+    background-color: transparent;
+}
+
+nav .logo-container a img{
+    height: 150px;
+}
+
+header h1{
+    color: #fafafa;
+    text-align: center;
+    font-size: 2em;
+    font-family: "Good Times",sans-serif;
+    font-weight: 200;
+    letter-spacing: 3px;
+    font-weight: 200;
+}
+
+#container{
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    background-color: rgba(255, 255, 255, 0.92);
+}
+
+.post-container{
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    height:auto;
+    width:70%;
+    background-color: #fff;
+    box-shadow: 5px 5px 5px 0 rgba(255, 255, 255, 0.16), 5px 5px 15px 10px rgba(255, 255, 255, 0.12);
+    padding-bottom: 40px;
+    justify-content: center;
+}
+
+#container{
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    background-color: rgba(255, 255, 255, 0.92);
+}
+
+.post-container .row{
+    margin: auto;
+    padding-top: 0px;
+}
+
+.article-container{
+    padding-bottom: 30px;
+    margin: auto;
+    border-bottom:1px solid rgba(0,0,0,0.3);
+}
+
+.article-container h2{
+    line-height: 2;
+    font-size: 2.25em;
+    font-family: "Lato" , sans-serif;
+    letter-spacing: 1.25px;
+    word-spacing: 2px;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+.article-container h2 a{
+    color: rgba(0,0,0,0.6);
+    transition: 200ms;
+}
+
+.article-container h2 a:hover{
+    color: cadetblue;
+}
+
+.article-container p,.article-container p span{
+    text-align: left;
+    font-size: 1.1rem !important;
+    line-height: 1.6;
+    word-spacing: 1px;
+    font-family: 'Roboto' , sans-serif !important;
+}
+
+/*
+.article-container p span span{
+    font-size: 20px !important;
+    font-family: 'Roboto' , sans-serif !important;
+}
+*/
+
+.article-container img{
+    width: 100% !important;
+}
+
+.article-container .date{
+    position: relative;
+    top: -22px;
+    line-height: 2;
+    text-align: right;
+}
+
+.article-container .date i.fa span{
+    font-family: "Calibri" , sans-serif;
+}
+    
+.article-container .date i.fa{
+    float: right;
+    font-size: 1.25em;
+    padding: 5px;
+    color: rgba(0,0,0,0.5);
+}
+
+.article-container footer{
+    margin-top: 10px;
+    line-height: 2;
+    text-align: left;
+}
+
+.article-container footer i.fa{
+    font-size: 1.25em;
+    color: rgba(0,0,0,0.5);
+    transition: 200ms;
+}
+
+.article-container footer i.fa:hover,.article-container footer i.fa a:hover{
+    color: cadetblue;
+}
+
+.article-container footer i.fa a{
+    font-family: "Calibri",sans-serif;
+    color: rgba(0,0,0,0.5);
+    font-weight: 600;
+    transition: 200ms;
+}
+
+.post{
+    height: 230px;
+}
+
+.post header{
+    height: 230px;
+}
+
+@media only screen and (max-width: 390px) {
+    
+    .post{
+        position: absolute;
+        top: 0;
+        min-height: 350px;
+        float: left;
+    }
+    
+    nav{
+        height: 150px;
+    }
+    
+    nav li a{
+        padding: 0px;
+    }
+    
+    nav li a i.fa{
+        padding: 10px;
+        width: 100%;
+    }
+    
+    nav .logo-container a{
+        margin-top: 20px;
+        width: 100%;
+        padding: 0;
+    }
+
+    nav a .logo{
+        margin-top: 0px;
+        padding: 0px;
+        height: 100px;
+        width: 100%;
+    }
+
+    nav .logo-container a img{
+        height: inherit;
+        width: 100%;
+    }
+    
+    .row .post-container.s10{
+        position: absolute;
+        top: 340px;
+        width: 90%;
+        margin-left: 5%;
+    }
+    
+    .article-container h2{
+        line-height: 1.5;
+        font-size: 2em;
+    }
+    
+    .article-container p{
+        font-size: 14px;
+    }
+}
